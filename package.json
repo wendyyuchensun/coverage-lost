@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "BABEL_ENV=test nyc mocha --require babel-register"
+    "test": "BABEL_ENV=test nyc mocha --require babel-register",
+    "build": "babel test --out-dir build"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   },
   "homepage": "https://github.com/wendyyuchensun/coverage-lost#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-plugin-istanbul": "^3.1.2",
     "babel-register": "^6.26.0",
