@@ -18,10 +18,10 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-istanbul": "^3.1.2",
-    "babel-plugin-transform-inline-imports-commonjs": "^1.2.0",
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
-    "nyc": "^14.1.1"
+    "nyc": "^14.1.1",
+    "preset-import": "^1.0.0"
   }
 }
