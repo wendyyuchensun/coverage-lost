@@ -1,6 +1,6 @@
 {
-    "plugins": [
-       "@babel/plugin-transform-modules-commonjs" 
+    "presets": [
+        "module:preset-import"
     ],
     "env": {
         "test": {

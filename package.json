@@ -17,11 +17,11 @@
   "homepage": "https://github.com/wendyyuchensun/coverage-lost#readme",
   "devDependencies": {
     "@babel/core": "^7.4.5",
-    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
     "@babel/register": "^7.4.4",
     "babel-plugin-istanbul": "^5.1.4",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
-    "nyc": "^14.1.1"
+    "nyc": "^14.1.1",
+    "preset-import": "^2.0.0"
   }
 }
